@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummmy</title>
+    <link rel="icon" href="..//images/logo (1) - Copy.ico" type="image/x-icon">
+    <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/34d10e105a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="..//css/style.css">
+
+</head>
+<body>
+    
+<section>
+    <div class="main-nav d-flex  ">
+        <div class="side-nav d-flex flex-column  justify-content-between  ">
+           <div class="menu m-4 ">
+            <ul class="list-unstyled text-light  ">
+                <li class="p-2"><a   id="SearchBtn" >Search</a></li>
+                <li class="p-2"><a  id="categories">Categories</a></li>
+                <li class="p-2"><a id="Area">Area</a></li>
+                <li class="p-2"><a id="Ingredients">Ingredients</a></li>
+                <li class="p-2"><a id="contactUs" >Contact Us</a></li>
+            </ul>
+           </div>
+    
+            <div class="copy-rights m-4">
+    <div class="social-icons ">
+        <i class="fa-brands fa-facebook text-light"></i>
+        <i class="fa-brands fa-twitter text-light"></i>
+        <i class="fa-solid fa-globe text-light"></i>
+    </div>
+    <p class="text-light ">Copyright Â© 2019 All Rights
+        Reserved.</p>
+            </div>
+        </div>
+    <div class="side-navbar d-flex flex-column justify-content-between align-items-center">
+    <div class="logo-icon mt-4">
+        <img src="..//images/logo (1).png"  alt="">
+    
+    
+    </div>
+    <div class="exite-icon">
+        <i class="fa-solid fa-bars fa-2xl close"></i>
+    
+    </div>
+    <div class="main-icon mb-4">
+    
+        <i class="fa-solid fa-globe"></i>
+    <br>
+        <i class="fa-solid fa-share-nodes"></i>
+    </div>
+    </div>
+    
+    </div>
+
+
+<div class="home-page d-none" id="homePage">
+<div class="container">
+    <div class="row g-4 mt-3" id="homeData">
+
+    </div>
+</div>
+    </div>
+  <div class="categoriesPage d-none" id="categoriesPage">
+    <div class="container">
+        <div class="row g-4 mt-3" id="mealsContent">
+        
+        </div>
+     </div> 
+  </div>
+  <div class="ctegoryData d-none" id="ctegoryData">
+<div class="container">
+    <div class="row g-4 mt-3" id="categoryContent">
+
+    </div>
+</div>
+  </div>
+
+
+
+     <div id="searchPage" class="d-none">
+      <div class="container">
+      <div class="row  d-flex justify-content-center p-2"> 
+         <input type="text"  class="form-control inp1 " id="byName" placeholder="Search By Name">
+        <input type="text" class="form-control inp1" id="byLitter" placeholder="Search By First letter">
+   </div>
+  <div class=" row"  id="mealsNames">
+   
+
+</div>
+  </div>
+    </div>
+     </div>
+     <div id="areaPage" class="d-none ">
+        <div class="container">
+            <div class="row g-4 mt-3" id="areaData">
+            
+            </div>
+        </div>
+     </div>
+     <!-- class="fa-solid fa-drumstick-bite fa-4x" -->
+     <div id="areaPlace" class="d-none">
+        <div class="container">
+            <div class="row"id="areaInfo">
+
+            </div>
+        </div>
+     </div>
+
+     <div id="IngrediantPage" class="d-none">
+<div class="container">
+    <div class="row g-4 mt-3" id="IngrediantData">
+
+
+    </div>
+  
+</div>
+     </div>
+
+
+     <div id="ingPage" class="d-none ">
+      <div class="container">
+        <div class="row g-4 mt-3" id="IngDet">
+          
+      </div>
+          
+        </div>
+     </div>
+
+     <div class="contact d-none" id="contact">
+        <div class="container con-3">
+                <div class="row form contact-form g-4">
+                    <div class="col-md-6">
+                        <input type="text"  class="form-control inp3  mt-2 mb-2 " id="fName" placeholder="Enter Your Name">
+                        <div class="alert1  mt-2 mb-4 d-none" id="alertname"><p>Enter valid Phone Name</p></div>
+                        <input type="number" class="form-control inp3  mt-2 mb-2" id="age" placeholder="Enter Your Age">
+                        <div class="alert1 d-none" id="alertAge"><p> Enter valid age </p></div>
+                        <input type="password" class="form-control inp3  mt-2 mb-2" id="rePass" placeholder="Re-password">
+                        <div class="alert1 mb-4 mt-2 d-none" id="alertRePass"><p>Enter valid Password </p></div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control inp3  mt-2 mb-2" id="eMail" placeholder="Enter Your e-mail">
+                        <div class="alert1  mt-2 mb-4 d-none" id="alertMail"><p> Email not valid *exemple@yyy.zzz </p></div>
+                        <input type="number" class="form-control  mt-2 mb-2 inp3" id="phoneNum" placeholder="Enter Your Phone ">
+                        <div class="alert1  mt-2 mb-4 d-none" id="alertPhone"><p>Enter valid Phone Number </p></div>
+                        <input type="password" class="form-control inp3  mt-2 mb-2" id="pass" placeholder="Enter Your Password ">
+
+                        <div class="alert1 mt-2 mb-4 d-none" id="alertPass"><p>Enter valid password *Minimum eight characters, at least one letter and one number:*</p></div>
+                    </div>
+                </div>
+                <div class="row">  <button class="btn btn-outline-danger btn1" id="submitBtn" disabled>submit</button></div>
+
+        
+        </div>
+     </div>
+</section>
+
+<div class="loading-screen bg-black">
+    <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+</div>
+
+
+
+
+
+
+<script src="..//js/jquery-3.6.2.min.js"></script>
+    <script src="..//js/bootstrap.bundle.js"></script>
+    <script type="module" src="..//js/index.js"></script>
+</body>
+</html>

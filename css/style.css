@@ -1,0 +1,145 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    position: relative;
+}
+.side-nav{
+    background-color: black;
+    width: 260px;
+    left: 0;
+    height: 100vh;
+
+}
+
+.con-4{
+    position: relative;
+}
+.contact-form{
+  width: 70%;
+    position: absolute;
+  top: 180px;
+  left: 250px;
+
+}
+.alert1{
+    background-color: #f8d7da;
+    color: #842029;
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+text-align: center;
+    border-radius: 5px;
+
+}
+.btn1{
+    width: 10%;
+position: absolute;
+left: 47%;
+top: 500px;
+}
+
+.main-nav{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0px;
+}
+.meal-item{
+cursor: pointer;
+}
+.data{
+    cursor: pointer;
+}
+.layer h6{
+    font-weight: bold;
+}
+
+.menu ul li ,.social-icons i, .exite-icon i,.main-icon i{
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.des1{
+    font-size: 14px;
+    overflow: hidden;
+}
+.side-navbar{
+    background-color: white;
+    height: 100vh;
+    width: 60px;
+}
+.copy-rights p {
+    font-size: 14px;
+}
+.logo-icon img{
+    width: 50px;
+}
+.meal{
+    cursor: pointer;
+    /* width: 260px;
+    height: 260px; */
+    /* border-radius: 10px; */
+
+    position: relative;
+}
+/* .meal img{
+    border-radius: 10px;
+} */
+.container{
+ 
+   width: 1300px;
+}
+.layer{
+    background-color: rgba(255, 255, 255, 0.716);
+display: none;
+overflow: hidden;
+}
+.country{
+    cursor: pointer;
+}
+.inp1{
+    background-color: transparent;
+    width: 45%;
+    margin: 10px;
+}
+.inp3{
+width: 100%;
+    
+}
+.inp1:focus{
+    background-color: transparent;
+    color: white;
+}
+.fa-house-laptop ,.fa-drumstick-bite{
+    font-size: 70px;
+}
+.country-name{
+    font-size: 25px;
+  
+}
+.country-meal-name{
+    font-size: 24px;
+    
+}.ing-des{
+    overflow: hidden;
+    height: 50px;
+}
+.ing-name{
+    font-size: 1.5rem;
+    
+}
+
+.ing{
+cursor:pointer;
+}
+
+.loading-screen{
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
